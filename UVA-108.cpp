@@ -39,7 +39,7 @@ int main(){
 	}
 	int max = INT_MIN,sum;
 	for(int i=0 ; i<N ; i++){
-		asd = vector<int> (N-i,0);
+		asd = vector<int> (N,0);
 		for(int j=i ; j<N ; j++){
 			for(int h=0 ; h<N ; h++)
 				asd[h] += m[h][j];
